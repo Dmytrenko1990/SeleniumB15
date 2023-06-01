@@ -32,23 +32,23 @@ public class CommonMethods extends PageInitializer {
         String browserType = ConfigReader.getPropertyValue("browserType");
         switch (browserType) {
             case "Chrome":
-          /*      ChromeOptions ops = new ChromeOptions();
-                ops.addArguments("--no-sandbox");
-                ops.addArguments("--remote-allow-origins=*");
-                if(ConfigReader.getPropertyValue("Headless").equals("true")){
-                    ops.addArguments("--headless=new");
-                }*/
-                driver = new ChromeDriver();
-                break;
-
-            case "Firefox":
-                FirefoxOptions ops = new FirefoxOptions();
+               ChromeOptions ops = new ChromeOptions();
                 ops.addArguments("--no-sandbox");
                 ops.addArguments("--remote-allow-origins=*");
                 if(ConfigReader.getPropertyValue("Headless").equals("true")){
                     ops.addArguments("--headless=new");
                 }
-                driver = new FirefoxDriver(ops);
+                driver = new ChromeDriver(ops);
+                break;
+
+            case "Firefox":
+                /*FirefoxOptions ops = new FirefoxOptions();
+                ops.addArguments("--no-sandbox");
+                ops.addArguments("--remote-allow-origins=*");
+                if(ConfigReader.getPropertyValue("Headless").equals("true")){
+                    ops.addArguments("--headless=new");
+                }*/
+                driver = new FirefoxDriver();
                 break;
 
             case "IE":
