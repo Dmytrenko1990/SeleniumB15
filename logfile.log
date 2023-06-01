@@ -211,3 +211,12 @@
 2023-05-31 22:32:18 INFO  Log:15 - ##################################
 2023-05-31 22:32:18 INFO  Log:16 - ##################################
 2023-05-31 22:32:18 INFO  Log:17 - ################This test case is finished###############
+2023-05-31 22:41:27 INFO  Log:9 - *************************
+2023-05-31 22:41:27 INFO  Log:10 - *************************
+2023-05-31 22:41:27 INFO  Log:11 - ***********This is the beginning of my Test case***********
+2023-05-31 22:41:27 INFO  Log:21 - My test case is executing right now
+2023-05-31 22:41:27 INFO  Log:25 - My test case might have some trivial issues
+2023-05-31 22:41:36 INFO  Log:21 - This test case about to completed
+2023-05-31 22:41:36 INFO  Log:15 - ##################################
+2023-05-31 22:41:36 INFO  Log:16 - ##################################
+2023-05-31 22:41:36 INFO  Log:17 - ################This test case is finished###############
